@@ -1,3 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.bbox {
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  overflow: scroll;
+  flex-direction: row;
+  border: 2px solid maroon;
+  border-radius: 7px;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #0100EC, #FB36F4);
+
+}
+
+.b {
+  padding: max(3vw, 20px);
+  margin: 5px;
+  color: darkblue;
+  background-image: linear-gradient(to bottom right, #FFDB01, #0E197D);
+  font-family: Ramaraja;
+  font-size:min(4vw,35px);
+  border-radius: 7px;
+
+}
+
+.m {
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  background-image: linear-gradient(to bottom right, #FDFCFB, #E2D1C3);
+font-family:Bungee spice;
+  margin-bottom: 2px;
+font-size:min(5vw,40px);
+}
+
+.box {
+  width: 100vw;
+  height: 3vh;
+  display: flex;
+  border: 2px solid darkcyan;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  background-color: skyblue;
+  +margin-bottom: 2px;
+
+
+}
+
+.Book {
+  display: none;
+}
+
+iframe {
+  width: 99.9vw;
+  height: 83vh;
+  box-sizing: border-box;
+  border: 0.3vh solid darkcyan;
+  margin-top: 5px;
+  border-radius: 3px;
+
+}
+
+.b:active {
+  background-color: mediumslateblue;
+}
+
+#Book1:target {
+  display: block;
+}
+
+#Book2:target {
+  display: block;
+}
+
+#Book3:target {
+  display: block;
+}
+
+#Book4:target {
+  display: block;
+}
+
+#Book5:target {
+  display: block;
+}
+
+#Book6:target {
+  display: block;
+}
+
+#Book7:target {
+  display: block;
+}
+
+#Book8:target {
+  display: block;
+}
+
+#Book9:target {
+  display: block;
+}
+
+#Book10:target {
+  display: block;
+}
+
 body {
-    font-size: 15pt;
+  background-image: url(/Assests/bg.jpeg)
 }
